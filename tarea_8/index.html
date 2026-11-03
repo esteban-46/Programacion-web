@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 8: Introduccion css</title>
+    <meta name="Author" content="Esteban Trejo Espino">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- ESTILOS INTERNOS:
+    <style>
+        h2{
+            color: blue;
+        }
+        p{
+            color: green;
+        }
+    </style> -->
+</head>
+<body>
+
+    <header id="bg-header">
+        <h1 id="h1-color">Tipos de estilos en css</h1>
+    </header>
+    <main>
+        <article>
+            <h2 class="color-h2">Estilos en linea</h2>
+            <p>Estos estilos se van a agregar directamente en el elemento html mediante el atributo <code>style</code></p>
+            <p style="color: red;">Este parrafo tiene estilos en linea</p>
+            <!-- editar los elementos en linea tiene mayor jerarquia -->
+        </article>
+        <article>
+            <h2 class="color-h2">Estilos internos</h2>
+            <p class="color-estilosinternos">Estos estilos se agregan en el mismo html dentro de la etiqueta <code>&lt;head&gt;</code> y para agregarlos se utiliza el elemento: <code>&lt;style&gt;</code> </p>
+        </article>
+        <article>
+            <h2 class="color-h2">Estilos internos</h2>
+            <p>Estos estilos son los que se recomienda utilizar, ya que ofrece modularidad, facil mantenimiento, orden, eficiencia, entre otras ventajas, para agregar una hoja de estilos externa, dentro de la etiqueta <code>&lt;head&gt;</code> se utiliza el elemento <code>&lt;link&gt;</code> donde se especifica la ruta de nuestra hoja de estilos</p>
+        </article>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+.fondo-minecraft {
+    background-image: linear-gradient(to top, rgba(238, 130, 238, 0.5), rgba(128, 128, 128, 0.5)), url('../assets/fnaf.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 2000px;
+    height: 700px;
+}
+
+.fondo-cod {
+    background-color: rgba(130, 100, 159, 0.588);
+    background-image: url('../assets/clau.jpeg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 500px;
+    height: 1000px;
+    border: 2px solid red;
+}

@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#encabezado{
+    background-color: black;
+    color: white;
+    padding: 15px;
+
+    margin: 15px 5px;
+
+    border: 10px ridge rgb(0, 195, 255);
+    border-top-style: double;
+    border-left-color: red;
+    border-right-color: red;
+    border-bottom-width: 2px ;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px 10px rgb(50, 45, 45);
+}
+
+
+.introduccion{
+    border: 2px solid gold;
+    background-color: black;
+    padding: 5px;
+    color: gray;
+}
+
+.introduccion p{
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+    border: 2px dotted gold;
+    box-sizing: border-box;
+}
+
+.introduccion span{
+    width: 300px;
+    height: 150px;
+    border: 2px dotted gold;
+    padding: 10px;
+    margin: 10px;
+}
+
+.texto-fuente{
+    background-color: black;
+    color: white;
+}
+
+.propiedades-texto h2{
+    border: 2px solid red;
+    text-align: center;
+
+    text-transform: uppercase;
+    text-decoration: underline;
+
+    text-shadow: 2px 2px 3px white;
+}
+
+.propiedades-texto p{
+    padding: 5px;
+    text-align: justify;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    word-spacing: 15px;
+
+}
+
+.propiedades-fuentes h2{
+    padding: 5px;
+    text-align: center;
+
+    text-transform: uppercase;
+    text-decoration: underline;
+
+
+    text-shadow: 2px 2px 3px gray;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    font-size: large;
+    
+}
+
+.propiedades-fuentes p{
+
+    font-family: "Zeyada", cursive;
+    padding: 8px;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+
+}

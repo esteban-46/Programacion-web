@@ -1,0 +1,155 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(to bottom, black, rgb(44, 0, 0));
+  color: white;
+}
+
+#encabezado {
+  border: 0.2rem solid pink;
+  font-size: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.logo {
+  border: 0.2rem solid greenyellow;
+  border-radius: 45%;
+  width: 20%;
+  height: 30rem;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 45%;
+}
+
+#encabezado h1 {
+  text-align: center;
+  text-shadow: 0.2rem 0.2rem 0.5rem pink;
+  position: absolute;
+  top: 10rem;
+  left: 30%;
+}
+
+#navegacion ul {
+  list-style-type: none;
+  padding-left: 0;
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  border: 0.2rem solid red;
+  width: 20%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#navegacion ul li{
+    display: inline-block;
+}
+
+#elementos-posicionados {
+  border: 0.2rem solid goldenrod;
+  padding: 1rem;
+  height: 200rem;
+  position: relative;
+}
+
+.itachi {
+  border: 0.2rem solid greenyellow;
+  width: 40rem;
+  height: 50rem;
+  margin: 0.5rem;
+  position: absolute;
+  top: 0rem;
+}
+
+.itachi img {
+  width: 100%;
+  height: 100%;
+}
+
+.madara {
+  border: 0.2rem solid greenyellow;
+  width: 40rem;
+  height: 50rem;
+  margin: 0.5rem;
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  z-index: 2;
+}
+
+.madara img {
+  width: 100%;
+  height: 100%;
+}
+
+.obito {
+  border: 0.2rem solid greenyellow;
+  width: 40rem;
+  height: 50rem;
+  margin: 0.5rem;
+  position: absolute;
+  bottom: 0rem;
+  left: 0rem;
+}
+
+.obito img {
+  width: 100%;
+  height: 100%;
+}
+
+.sasuke {
+  border: 0.2rem solid greenyellow;
+  width: 40rem;
+  height: 50rem;
+  margin: 0.5rem;
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+}
+
+.sasuke img {
+  width: 100%;
+  height: 100%;
+}
+
+/* CONSULTAS DEMEDIOS O MEDIAS QUERYS: 
+para la creacion de paginas web responsivas o adaptables si se definen varias consultas de medios, se deben poner en forma descendente segun la 
+tablets(480-960px)
+Sirven para definir los estilos a html segun el tamaño de la pantalla de nuestro dispositivo, gracias a esto se proporciona una herramienta que nos sirve 
+medida del dispositivo 
+moviles(480px)
+compus(960-1280px)*/
+
+@media screen and (max-width:1250px) {
+    #encabezado h1 {
+    position: absolute;
+    top: 10rem;
+    left: 25%;
+    font-size: 2rem;
+    }
+    .logo {
+    height: 27rem;
+    }
+}
+
+@media screen and (max-width:920px) {
+    #encabezado h1 {
+    position: absolute;
+    top: 10rem;
+    left: 25%;
+    font-size: 2.5rem;
+    }
+    .logo {
+    height: 22rem;
+    }
+}
